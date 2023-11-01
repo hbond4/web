@@ -1,0 +1,128 @@
+/* nav {
+  background-color: #f0f0f0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav li {
+    display: block;
+    margin: 5px 0;
+  } */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    overflow: hidden; /* Clear floats */
+}
+
+/* Navbar links */
+.navbar a {
+    float: left; /* Float the links to the left */
+    display: block; /* Display as block elements to create a button-like appearance */
+    color: white; /* Text color for links */
+    text-align: center; /* Center-align text */
+    padding: 14px 16px; /* Add padding to the links for spacing */
+    text-decoration: none; /* Remove underlines from links */
+  opacity: 0 89;
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    background-color: #ddd; /* Background color on hover */
+    color: #333; /* Text color on hover */
+}
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.image {
+    flex: 0.5;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  border-radius: 5%
+  margin-top: 10px;
+}
+p {
+    font-size: 18px; /* Adjust the font size */
+    line-height: 1.5; /* Line spacing */
+    color: #333; /* Text color */
+    margin: 10px 0; /* Margin around the paragraph */
+    padding: 10px; /* Padding inside the paragraph */
+    border: 1px solid #ddd; /* Border around the paragraph */
+    background-color: #f5f5f5; /* Background color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+}
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #333;
+}
+.footer-text:hover {
+  color: blue;
+}
+p:hover {
+    color: #fff; /* Change the text color on hover */
+    background-color: #007bff; /* Change the background color on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
+}
+h1:hover {
+color: #007bff; /* Change the text color on hover */
+cursor: pointer; 
+}
+h4 {
+    font-size: 20px; /* Set the font size */
+    color: #333; /* Set the text color */
+    font-weight: bold; /* Make the text bold */
+    margin: 10px 0; /* Add margin to create spacing around the h4 element */
+}
+/* nav li a:hover {
+  color: #fff;
+  background-color: read-only;
+  cursor: pointer;
+} */
